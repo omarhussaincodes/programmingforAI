@@ -1,0 +1,109 @@
+{
+  "amino_acids": [
+    {
+      "abbrevation": "Ala",
+      "dna_codons": ["GCT", "GCC", "GCA", "GCG"],
+      "amino_acid_name": "Alanine"
+    },
+    {
+      "abbrevation": "Arg",
+      "dna_codons": ["CGT", "CGC", "CGA", "CGG", "AGA", "AGG"],
+      "amino_acid_name": "Arginine"
+    },
+    {
+      "abbrevation": "Asn",
+      "dna_codons": ["AAT", "AAC"],
+      "amino_acid_name": "Asparagine"
+    },
+    {
+      "abbrevation": "Asp",
+      "dna_codons": ["GAT", "GAC"],
+      "amino_acid_name": "Aspartic Acid"
+    },
+    {
+      "abbrevation": "Cys",
+      "dna_codons": ["TGT", "TGC"],
+      "amino_acid_name": "Cysteine"
+    },
+    {
+      "abbrevation": "Gln",
+      "dna_codons": ["CAA", "CAG"],
+      "amino_acid_name": "Glutamine"
+    },
+    {
+      "abbrevation": "Glu",
+      "dna_codons": ["GAA", "GAG"],
+      "amino_acid_name": "Glutamic Acid"
+    },
+    {
+      "abbrevation": "Gly",
+      "dna_codons": ["GGT", "GGC", "GGA", "GGG"],
+      "amino_acid_name": "Glycine"
+    },
+    {
+      "abbrevation": "His",
+      "dna_codons": ["CAT", "CAC"],
+      "amino_acid_name": "Histidine"
+    },
+    {
+      "abbrevation": "Ile",
+      "dna_codons": ["ATT", "ATC", "ATA"],
+      "amino_acid_name": "Isoleucine"
+    },
+    {
+      "abbrevation": "Leu",
+      "dna_codons": ["TTA", "TTG", "CTT", "CTC", "CTA", "CTG"],
+      "amino_acid_name": "Leucine"
+    },
+    {
+      "abbrevation": "Lys",
+      "dna_codons": ["AAA", "AAG"],
+      "amino_acid_name": "Lysine"
+    },
+    {
+      "abbrevation": "Met",
+      "dna_codons": ["ATG"],
+      "amino_acid_name": "Methionine (Start Codon)"
+    },
+    {
+      "abbrevation": "Phe",
+      "dna_codons": ["TTT", "TTC"],
+      "amino_acid_name": "Phenylalanine"
+    },
+    {
+      "abbrevation": "Pro",
+      "dna_codons": ["CCT", "CCC", "CCA", "CCG"],
+      "amino_acid_name": "Proline"
+    },
+    {
+      "abbrevation": "Ser",
+      "dna_codons": ["TCT", "TCC", "TCA", "TCG", "AGT", "AGC"],
+      "amino_acid_name": "Serine"
+    },
+    {
+      "abbrevation": "Thr",
+      "dna_codons": ["ACT", "ACC", "ACA", "ACG"],
+      "amino_acid_name": "Threonine"
+    },
+    {
+      "abbrevation": "Trp",
+      "dna_codons": ["TGG"],
+      "amino_acid_name": "Tryptophan"
+    },
+    {
+      "abbrevation": "Tyr",
+      "dna_codons": ["TAT", "TAC"],
+      "amino_acid_name": "Tyrosine"
+    },
+    {
+      "abbrevation": "Val",
+      "dna_codons": ["GTT", "GTC", "GTA", "GTG"],
+      "amino_acid_name": "Valine"
+    },
+    {
+      "abbrevation": "STOP",
+      "dna_codons": ["TAA", "TAG", "TGA"],
+      "amino_acid_name": "Stop Codon"
+    }
+  ]
+}
