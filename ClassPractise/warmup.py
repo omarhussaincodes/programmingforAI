@@ -1,17 +1,14 @@
 A = [[1, 2, 3], [2, 3, 4], [5, 6, 7]]
 
-
 def print_flat(inputlist):
 
     list_A = [item for sublist in inputlist for item in sublist]
     for item in list_A:
         print(item, end=" ")
 
-
 print_flat(A)
 
 print(f"\n=================")
-
 
 def print_flatt(input):
     for i in range(len(input)):
@@ -35,7 +32,6 @@ matrix_B = [
     [10, 2, 0]
 ]
 
-
 def isSquareMatrix(input) -> bool:
 
     if (not isinstance(input, list)):
@@ -53,12 +49,10 @@ def isSquareMatrix(input) -> bool:
             return False
     return True
 
-
 print(isSquareMatrix(matrix_A))
 print(isSquareMatrix(matrix_B))
 
 # Matrix Addition
-
 A = [
     [1, 2, 3],
     [2, 3, 4],
@@ -69,7 +63,6 @@ B = [
     [7, 8, 9],
     [-1, 9, 0]
 ]
-
 
 def sum_matrix(A, B):
     result = []
@@ -84,7 +77,6 @@ def sum_matrix(A, B):
 
     return result
 
-
 print(sum_matrix(A, B))
 
 # dot product of 2 matrices
@@ -96,7 +88,6 @@ def dot_product_vectors(X, Y):
     if (len(X) != len(Y)):
         print("Cannot dot product for unequal sized vectors")
         exit()
-
     
     result = 0
     for i in range(len(X)):
@@ -104,6 +95,5 @@ def dot_product_vectors(X, Y):
         result += product
 
     return (result)
-
 
 print(dot_product_vectors(X, Y))
