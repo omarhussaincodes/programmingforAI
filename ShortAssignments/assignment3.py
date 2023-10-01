@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class MachineLearningModel:
     def __init__(self, name, type):
         self.name = name
@@ -24,7 +23,6 @@ class MachineLearningModel:
             return "Oops it seems like model isn't trained."
 
         return self.intercept + self.coefficient * input_data
-
 
 # Creating an instance of MachineLearningModel
 ml_model = MachineLearningModel(
