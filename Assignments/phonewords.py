@@ -13,13 +13,11 @@ phoneword_dict = {
     ('w', 'x', 'y', 'z'): 9
 }
 
-
 def get_magic_number(letter):
     for key, value in phoneword_dict.items():
         if (key.count(letter) != 0):
             return value
     return ""
-
 
 def convert_phoneword(user_entered_input):
     result = ""
@@ -29,8 +27,7 @@ def convert_phoneword(user_entered_input):
         else:
             keypadnum = get_magic_number(element.lower())
             result += (str(keypadnum))
-    return result
-
+    return int(result)
 
 user_entered_ph = input("Enter your phone number please:")
 
